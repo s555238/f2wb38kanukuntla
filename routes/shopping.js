@@ -3,8 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  console.log("added bootstrap for button")
-  res.render('index', { title: 'Express' });
+  res.render('shopping', { title: 'Search Results shopping' });
 });
 
 module.exports = router;
